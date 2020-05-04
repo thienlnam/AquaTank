@@ -12,8 +12,8 @@ from selenium import webdriver
 from random import randint #For random int values
 
 driver = webdriver.Chrome('/home/jack/Desktop/Trainy/chromedriver')  # Optional argument, if not specified will search path.
-username = "herroon@gmail.com"
-password = "passworord"
+username = ""
+password = ""
 url = "https://www.chegg.com/homework-help/questions-and-answers/10-augmented-matrix-denotes-arbitrary-number-denotes-nonzero-number-determine-whether-give-q28297415"
 
 def login_one():
