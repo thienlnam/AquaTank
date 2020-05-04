@@ -82,13 +82,10 @@ def grab_data():
 
 
 def input_database():
-	
-	#db = MySQLDatabase('namt-db', user='namt-db', password='PiykCbkXmzRo3fNs')
-
-	db = MySQLdb.connect(host="oniddb.cws.oregonstate.edu",    # your host, usually localhost
-                     user="namt-db",         # your username
-                     passwd="PiykCbkXmzRo3fNs",  # your password
-                     db="namt-db")        # name of the data base
+	db = MySQLdb.connect(host="",    # your host, usually localhost
+                     user="",         # your username
+                     passwd="",  # your password
+                     db="")        # name of the data base
 
 	print(db)
 
